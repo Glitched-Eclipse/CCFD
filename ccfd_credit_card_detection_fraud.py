@@ -24,7 +24,7 @@ Fraud_Credit.tail()
 Fraud_Credit.info()
 
 Fraud_Credit.isnull().sum()
-#Hi sir if you are wondering what I'm doing here
+#Hi if you are wondering what I'm doing here
 #I'm just checking for null values
 
 Fraud_Credit['Class'].value_counts()
@@ -52,7 +52,7 @@ Better_Dataset.tail()
 Better_Dataset.info()
 
 Better_Dataset['Class'].value_counts()
-#Look sir I equalized the data
+
 
 Better_Dataset.groupby('Class').mean()
 #Still no change but I have an idea
@@ -83,5 +83,5 @@ test_data_evaluation = accuracy_score(X_test_prediction, Y_test)
 
 print('Accuracy_of_the_test_dataset', test_data_evaluation)
 
-!pip install streamlit
+
 
